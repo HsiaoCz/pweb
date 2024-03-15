@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template-Python</title>
+  </head>
+  <body>
+    Hello World !
+    <br />
+    {{ data }}
+    <!-- 想单独拿到某个值 -->
+    <br />
+    {{ data.name }}
+    <!-- {{ data["name"] }} -->
+
+    <!-- 循环列表 -->
+    mylist: {{ data.mylist }}
+    <br />
+    mylist: {{ data.mylist[1] }}
+  </body>
+</html>
