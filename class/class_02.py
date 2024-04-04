@@ -33,3 +33,4 @@ print(stu.name)
 print(stu.__age)  # 在这里运行会报错
 # 可以通过类名来访问
 print(stu._Stuent.__age)
+
