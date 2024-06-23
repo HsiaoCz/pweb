@@ -24,6 +24,5 @@ def direct():
 def urlh():
     return redirect(url_for("hello"))
 
-
 if __name__ == "__main__":
     app.run(debug=True)
